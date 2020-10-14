@@ -1,0 +1,28 @@
+h1{
+    font-size: calc(18px+10vw);
+}
+
+p {
+    font-size: calc(14px+2vw);
+
+}
+
+article{
+    height:50vw;
+    width:100vw;
+    background:#aaa
+    display:flex;
+    flex-wrap:wrap;
+    max-height:500px;
+    div {
+        flex:1;
+        height: 20vw;
+        width : 400px;
+        border: 5px solid red;
+        background: blue;
+
+
+
+    }
+
+}
